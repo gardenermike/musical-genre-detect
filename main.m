@@ -27,7 +27,7 @@ clear ; close all; clc
 
 input_layer_size = 500000; %the size of the discrete cosine transform sample
 hidden_layer_size = 50;    %the size of the hidden layer (we can play w/this)
-num_labels = 10;           %the number of genres
+num_labels = 5;           %the number of genres
 iterations = 25;           %the number of training iterations
 
 %% =========== Part 1: Loading and Visualizing Data =============
